@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  gap: 16px;
+  gap: 30px;
   background-color: #f7f9fc;
+  flex: 1;
+  padding: 50px;
 }
