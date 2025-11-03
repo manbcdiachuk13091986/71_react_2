@@ -1,4 +1,3 @@
-
 import Button from "../../components/Button/Button";
 import LessonCard from "../../components/LessonCard/LessonCard";
 import "./styles.css";
@@ -8,9 +7,9 @@ function Lesson02() {
       <div className="button-container">
         <Button />
         <Button />
-        <Button/>
+        <Button />
       </div>
-      <LessonCard/>
+      <LessonCard />
     </div>
   );
 }
