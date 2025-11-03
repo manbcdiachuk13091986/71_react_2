@@ -1,21 +1,11 @@
-import "./styles.css";
-function Button(props) {
+import React from "react";
+import "./Styles.css";
+function Button({ text, onClick, type = "button" }) {
   return (
-    <button className="button" type={props.type}>
-      {props.name}
+    <button className="hw-button" type={type} onClick={onClick}>
+      {text}
     </button>
   );
 }
+
 export default Button;
-//import "./styles.css";
-// Компонент создаётся с помощью слова function и обязательно!
-// с большой буквы. Компонент обязательно должен возвращать JSX
-// иначе он просто не будет компонентом
-//function Button() {
-//return <button className="button">Get</button>;
-//}
-// Экспорт по умолчанию компонента Button. С помощью экспорта
-// мы можем получать компонент в других компонентах и там его
-// использовать, то есть вызывать. Иначе компонент будет недоступен
-// в других файлах проекта
-//export default Button;
