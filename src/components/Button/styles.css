@@ -1,10 +1,23 @@
-.button {
-  width: 300;
-  padding: 20px 30px;
-  background-color: rgb(17, 14, 14);
-  font-size: 28px;
-  color: white;
+.hw-button {
+  background-color: #0b76ff;
+  color: #ffffff;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
+  transition: transform 0.12s ease, background-color 0.12s ease;
+  box-shadow: 0 4px 10px rgba(11, 118, 255, 0.18);
+}
+
+.hw-button:hover {
+  transform: translateY(-2px);
+  background-color: #095fc4;
+}
+
+.hw-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
